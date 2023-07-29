@@ -14,6 +14,8 @@
 		CE4DCEBF2A7408D0001BEA99 /* rainy_or_sunnyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DCEBE2A7408D0001BEA99 /* rainy_or_sunnyTests.swift */; };
 		CE4DCEC92A7408D0001BEA99 /* rainy_or_sunnyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DCEC82A7408D0001BEA99 /* rainy_or_sunnyUITests.swift */; };
 		CE4DCECB2A7408D0001BEA99 /* rainy_or_sunnyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4DCECA2A7408D0001BEA99 /* rainy_or_sunnyUITestsLaunchTests.swift */; };
+		CE4DCED92A74175F001BEA99 /* sun.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4DCED72A74175F001BEA99 /* sun.png */; };
+		CE4DCEDA2A74175F001BEA99 /* umbrella.png in Resources */ = {isa = PBXBuildFile; fileRef = CE4DCED82A74175F001BEA99 /* umbrella.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		CE4DCEC42A7408D0001BEA99 /* rainy-or-sunnyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rainy-or-sunnyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE4DCEC82A7408D0001BEA99 /* rainy_or_sunnyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainy_or_sunnyUITests.swift; sourceTree = "<group>"; };
 		CE4DCECA2A7408D0001BEA99 /* rainy_or_sunnyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rainy_or_sunnyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CE4DCED72A74175F001BEA99 /* sun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sun.png; sourceTree = "<group>"; };
+		CE4DCED82A74175F001BEA99 /* umbrella.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umbrella.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +99,8 @@
 		CE4DCEAB2A7408CF001BEA99 /* rainy-or-sunny */ = {
 			isa = PBXGroup;
 			children = (
+				CE4DCED72A74175F001BEA99 /* sun.png */,
+				CE4DCED82A74175F001BEA99 /* umbrella.png */,
 				CE4DCEAC2A7408CF001BEA99 /* rainy_or_sunnyApp.swift */,
 				CE4DCEAE2A7408CF001BEA99 /* ContentView.swift */,
 				CE4DCEB02A7408D0001BEA99 /* Assets.xcassets */,
@@ -233,8 +239,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4DCED92A74175F001BEA99 /* sun.png in Resources */,
 				CE4DCEB52A7408D0001BEA99 /* Preview Assets.xcassets in Resources */,
 				CE4DCEB12A7408D0001BEA99 /* Assets.xcassets in Resources */,
+				CE4DCEDA2A74175F001BEA99 /* umbrella.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
